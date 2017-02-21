@@ -1,0 +1,21 @@
+{
+  "name": "ambient-bot",
+  "version": "0.0.0",
+  "description": "A really (really) simple chatbot using Facebook Messenger Platform which helps select the right ambient sound loop for you mood.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "lint": "jshint --exclude node_modules .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "config": "^1.20.4",
+    "ejs": "^2.4.2",
+    "express": "^4.13.4",
+    "request": "^2.72.0"
+  },
+  "engines": {
+    "node": "~4.1.2"
+  }
+}
